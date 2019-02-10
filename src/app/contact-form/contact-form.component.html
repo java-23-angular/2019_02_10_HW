@@ -1,0 +1,12 @@
+<input type="text" class="form-control" placeholder="Type name"
+[(ngModel)]="name">
+<input type="text" class="form-control" placeholder="Type email"
+[(ngModel)] = "email">
+<input type="text" class="form-control" placeholder="Type phone"
+[(ngModel)]="phone">
+<input type="text" class="form-control" placeholder="Type address"
+[(ngModel)]="address">
+<input type="text" class="form-control" placeholder="Type description"
+[(ngModel)]="desc">
+<br/>
+<button class="btn btn-success" (click)="addContact()">Add</button>

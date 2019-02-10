@@ -1,0 +1,5 @@
+<div class="list-group">
+  <app-contact-row
+    *ngFor="let contact of contactService.contacts; let i = index"
+    [cntc]="contact" [indx]="i"></app-contact-row>
+</div>
